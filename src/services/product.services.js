@@ -15,7 +15,7 @@ async function uploadMultipleImages(files) {
   }
 
   // Base URL for serving images (replace with your actual domain)
-  const baseUrl = process.env.BASE_URL || "http://localhost:3000";
+  const baseUrl = process.env.BASE_URL || "http://192.168.1.6:3000";
 
   const savedImages = [];
 
